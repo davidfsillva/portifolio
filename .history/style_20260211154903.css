@@ -542,10 +542,10 @@ footer {
   }
 
   .hero-btns {
-    justify-content: center; /* centraliza horizontalmente */
-    gap: 1rem; /* mantém espaçamento entre os botões */
-    flex-wrap: wrap;
-
+  justify-content: center; /* centraliza horizontalmente */
+  gap: 1rem; /* mantém espaçamento entre os botões */
+  flex-wrap: wrap;
+  
   }
 
 }
