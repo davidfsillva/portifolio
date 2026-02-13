@@ -53,7 +53,7 @@ body {
 
 .logo {
   font-family: 'Plus Jakarta Sans', sans-serif;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 1.4rem;
 }
 
@@ -469,7 +469,7 @@ footer {
 
 .btn-whatsapp {
   display: inline-block;
-  background: #18bb54;
+  background: #25d366;
   color: white;
   padding: 1rem 2rem;
   border-radius: 8px;
