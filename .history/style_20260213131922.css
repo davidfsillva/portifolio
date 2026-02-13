@@ -376,7 +376,7 @@ body {
 .card-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(99, 101, 241, 0.288);
+  background: rgba(99,102,241,0.8);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -419,7 +419,7 @@ body {
 /* FOOTER */
 footer {
   padding: 3rem 5%;
-  background: #111827; /* leve gradiente */
+  background: linear-gradient(135deg, #eef2ff, #ffffff); /* leve gradiente */
   border-top: 1px solid rgba(99,102,241,0.2); /* linha discreta */
   text-align: center;
   border-radius: 20px 20px 0 0;
@@ -434,7 +434,7 @@ footer {
 }
 
 .footer-content p {
-  color: var(--bg-light);
+  color: var(--text-dark);
   font-weight: 450;
   font-size: 1rem;
 }
@@ -445,10 +445,10 @@ footer {
 }
 
 .social-links a {
-  color: var(--bg-light);
+  color: var(--primary);
   padding: 0.6rem;
   border-radius: 30%; /* círculo perfeito */
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -458,7 +458,7 @@ footer {
 
 .social-links a:hover {
   transform: translateY(-3px) scale(1.1);
-  color: var(--bg-light);
+  color: var(--primary);
 }
 
 

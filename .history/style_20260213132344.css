@@ -376,7 +376,7 @@ body {
 .card-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(99, 101, 241, 0.288);
+  background: rgba(99,102,241,0.8);
   display: flex;
   justify-content: center;
   align-items: center;

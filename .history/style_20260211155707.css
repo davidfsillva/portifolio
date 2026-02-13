@@ -336,9 +336,6 @@ body {
 }
 
 .project-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; /* força a separação entre imagem e texto */
   background: var(--white);
   border-radius: 16px;
   overflow: hidden;
@@ -346,10 +343,7 @@ body {
   cursor: pointer;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
   will-change: transform;
-
-  min-height: 400px; /* define altura mínima igual para todos */
 }
-
 
 .project-card:hover {
   transform: translateY(-12px) scale(1.03);
@@ -376,7 +370,7 @@ body {
 .card-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(99, 101, 241, 0.288);
+  background: rgba(99,102,241,0.8);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -419,7 +413,7 @@ body {
 /* FOOTER */
 footer {
   padding: 3rem 5%;
-  background: #111827; /* leve gradiente */
+  background: linear-gradient(135deg, #eef2ff, #ffffff); /* leve gradiente */
   border-top: 1px solid rgba(99,102,241,0.2); /* linha discreta */
   text-align: center;
   border-radius: 20px 20px 0 0;
@@ -434,7 +428,7 @@ footer {
 }
 
 .footer-content p {
-  color: var(--bg-light);
+  color: var(--text-dark);
   font-weight: 450;
   font-size: 1rem;
 }
@@ -445,10 +439,10 @@ footer {
 }
 
 .social-links a {
-  color: var(--bg-light);
+  color: var(--primary);
   padding: 0.6rem;
   border-radius: 30%; /* círculo perfeito */
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -458,7 +452,7 @@ footer {
 
 .social-links a:hover {
   transform: translateY(-3px) scale(1.1);
-  color: var(--bg-light);
+  color: var(--primary);
 }
 
 
